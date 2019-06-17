@@ -1,0 +1,40 @@
+<!--pages/page1/page1.wxml-->
+
+<view wx:if="{{unprocessed}}" class="imagesection" id="image1">
+  <image bindtap="unprocessed_preview" style="width:750rpx; height:800rpx;" mode='widthFix' src="{{unprocessed_img_src}}">
+  </image>
+</view>
+<view wx:else class="imagesection" id="image1">
+  <image bindtap="processed_preview" style="width:750rpx; height:800rpx;" mode='widthFix' src="{{processed_img_src}}">
+  </image>
+</view>
+
+<view>
+  <button bindtap="chooseHattype">
+    Which Type of Hat?
+  </button>
+  <view wx:if='{{index<totalHatnum}}' class='text'>
+    Current:{{Hattype_array_show[index]}}
+  </view>
+  <view wx:else class='text'>
+    Current:Nothing
+  </view>
+</view>
+
+<button bindtap="chooseImage" class="chooseImage">
+  Choose Your Cat!
+</button>
+
+  <button bindtap="httpRequest">
+  Request
+</button> 
+
+<button bindtap="checkandshowPhotos" class="chooseImage">
+  Give it a Hat~
+</button>
+
+ <button bindtap="downLoadandsavePhotos" class="chooseImage">
+  Save This Photo
+</button> 
+
+

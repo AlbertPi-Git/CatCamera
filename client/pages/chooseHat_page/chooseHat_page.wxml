@@ -1,0 +1,26 @@
+<view>
+  <image bindtap="choose_Chirtmas_Hat" mode='widthFix' id='Christmas_Hat' src='../images/Christmas_Hat.png'>
+  Christmas Hat
+  </image>
+   <view id='Christmas_text'>Christmas Hat</view>  
+</view>
+<view>
+  <image bindtap="choose_Wizard_Hat" mode='widthFix' id='Wizard_Hat' src='../images/Wizard_Hat.png'>
+  </image>
+  <view id='Wizard_text'>Wizard Hat</view> 
+</view>
+<view>
+  <image bindtap="choose_Cowboy_Hat" mode='widthFix' id='Cowboy_Hat' src='../images/Cowboy_Hat.png'>
+  </image>
+  <view id='Cowboy_text'>Cowboy Hat</view> 
+</view>
+ <view>
+  <image bindtap="choose_Magician_Hat" mode='widthFix' id='Magician_Hat' src='../images/Magician_Hat.png'>
+  </image>
+  <view id='Magician_text'>Magician Hat</view> 
+</view>
+<view>
+  <image bindtap="choose_Chief_Hat" mode='widthFix' id='Chief_Hat' src='../images/Chief_Hat.png'>
+  </image>
+  <view id='Chief_text'>Chief Hat</view> 
+</view> 

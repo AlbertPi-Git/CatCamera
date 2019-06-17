@@ -1,0 +1,85 @@
+/* pages/chooseHat_page/chooseHat_page.wxss */
+#Christmas_Hat{
+  width:400rpx;
+  height:600rpx;
+  position:relative;
+  left:210rpx;
+  top:40rpx;
+  margin:auto;  
+}
+
+#Christmas_text{
+  color:black;
+  text-align:center;
+  font-size: 20px;
+  position:relative;
+  top:45rpx;
+}
+
+#Wizard_Hat{
+  width:400rpx;
+  height:600rpx;
+  position:relative;
+  left:190rpx;
+  top:140rpx;
+  margin:auto;  
+}
+
+#Wizard_text{
+  color:black;
+  text-align:center;
+  font-size: 20px;
+  position:relative;
+  top:145rpx;
+}
+
+#Cowboy_Hat{
+  width:500rpx;
+  height:600rpx;
+  position:relative;
+  left:140rpx;
+  top:200rpx;
+  margin:auto;  
+}
+
+#Cowboy_text{
+  color:black;
+  text-align:center;
+  font-size: 20px;
+  position:relative;
+  top:130rpx;
+}
+
+#Magician_Hat{
+  width:600rpx;
+  height:600rpx;
+  position:relative;
+  left:90rpx;
+  top:160rpx;
+  margin:auto;  
+}
+
+#Magician_text{
+  color:black;
+  text-align:center;
+  font-size: 20px;
+  position:relative;
+  top:110rpx;
+}
+
+#Chief_Hat{
+  width:400rpx;
+  height:600rpx;
+  position:relative;
+  left:180rpx;
+  top:200rpx;
+  margin:auto;  
+}
+
+#Chief_text{
+  color:black;
+  text-align:center;
+  font-size: 20px;
+  position:relative;
+  top:200rpx;
+}

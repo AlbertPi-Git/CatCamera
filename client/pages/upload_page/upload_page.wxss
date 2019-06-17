@@ -1,0 +1,31 @@
+/* pages/page1/page1.wxss */
+#HelloName{
+  color:burlywood;
+  text-align:center
+}
+
+#image1{
+  top:0rpx;
+  text-align:center;
+}
+
+.chooseImage{
+  top: 0rpx;
+  text-align:center;
+  color:black;
+}
+
+#saveImage{
+  text-align:center
+}
+
+.text{
+  color:black;
+  text-align:center
+}
+
+.picker{
+  color:black;
+  text-align:center;
+  /* font-size:45rpx; */
+}
